@@ -7,7 +7,7 @@ cat << EOF > $BIN_DIR/$OVERRIDES_FILENAME
 provider_installation {
 
   dev_overrides {
-    "nickithewatt/traced" = "$BIN_DIR"
+    "samplerepo/traced" = "$BIN_DIR"
   }
 
   direct {}
