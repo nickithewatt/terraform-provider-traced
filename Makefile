@@ -2,7 +2,7 @@ PLUGIN_NAME=terraform-provider-traced
 PLUGIN_VERSION=0.1.0
 PROVIDER_TARGET=$(shell go env GOOS)_$(shell go env GOARCH)
 PROVIDER_HOSTNAME=registry.hashicorp.io
-PROVIDER_NAMESPACE=nickithewatt
+PROVIDER_NAMESPACE=samplerepo
 PROVIDER_TYPE=traced
 PROVIDER_VERSION = 0.1.0
 
